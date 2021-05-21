@@ -1,0 +1,73 @@
+.header{
+    height: $section-height;
+    width: $section-width;
+    background: $gray-letter;
+    border-left: 3px solid $gray-background-section;
+    border-right: 3px solid $gray-background-section;
+    position: relative;
+    .logo{
+        height: 5.5rem;
+        width:100vw;
+        background: black;
+    }
+    nav{
+        height: 2.5rem;
+        width: 100%;
+        background-color:$gray-background-menu;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 10% 0 10%;
+        align-items: center;
+        color: $gray-letter;
+        font-size: $menu-item;
+        .menu-items{
+            transition: all .1200ms ease-in-out;       
+         }
+        a{
+            text-decoration: none;
+            color:$gray-letter;
+        }
+
+        .menu-items:hover{
+            transform: scale(1.2);
+        }
+    }
+    .hooker{
+        position: absolute;
+        top: 305px;
+        right: 318px;
+        h2{
+            color: $gray-letter-header;
+            font-size: $h2-secondary;
+            position: relative;
+           .secondary{
+               position: absolute;
+               right: 30%;
+           }
+            .bigger{
+                -webkit-text-stroke: 1px $gray-background-menu;
+                font-size: $h2-main;
+                color: $gray-letter;
+                margin-right: 0;
+            }
+        }
+    }
+    .buy-button{
+        position: absolute;
+        top: 477px;
+        right: 240px;
+       button{
+        font-size: $buy-button;
+        padding: 20px 50px;
+        background: $gray-letter;
+        color: $gray-letter-header;
+        font-weight: bold;
+        border: 2px solid rgba(128, 128, 128, 0.413);
+        border-radius: 5px;
+       }
+       button:hover{
+           color:$gray-letter;
+           background: $gray-letter-header;
+       }
+    }
+}
