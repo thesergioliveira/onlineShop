@@ -1,0 +1,46 @@
+.bracelet{
+    width: 100vw;
+    height: $section-height;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .section-tittle{
+        position: absolute;
+        top: 114px;
+        left: 100px;
+        span{
+            color: $gray-letter;
+            font-size: $section-tittle;
+        }
+    }
+    .bracelet-gallerry-wrapper{
+        position: absolute;
+        top: 219px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .image-wrapper{
+            position: relative;
+            // left: ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .img{
+                height: 401px;
+                width: 311px;
+                background-color: white;
+                margin: 10px;
+            }
+            .img:nth-child(even){
+                margin-top: 15%;
+            }
+        }
+        button{
+            background: none;
+            font-size: $arrow-size;
+            border: none;
+            color: $gray-letter;
+        }
+    }
+
+}
