@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## I need a good sass project structure, Can you help me?
 
 ## Get Started
@@ -148,3 +149,6 @@ Define your layout, how your webpage looks like
    ```
 
 1. Happy coding ☘️
+=======
+# onlineShop
+>>>>>>> 76c66689f38e1f6c7a144283e62a4a18dff06525
