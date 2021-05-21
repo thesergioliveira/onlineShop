@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  background: black;
+}
+
+.bracelet {
+  width: 100vw;
+  height: 50rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.bracelet .section-tittle {
+  position: absolute;
+  top: 114px;
+  left: 100px;
+}
+.bracelet .section-tittle span {
+  color: #E4E4E4;
+  font-size: 3rem;
+}
+.bracelet .bracelet-gallerry-wrapper {
+  position: absolute;
+  top: 219px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bracelet .bracelet-gallerry-wrapper .image-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bracelet .bracelet-gallerry-wrapper .image-wrapper .img {
+  height: 401px;
+  width: 311px;
+  background-color: white;
+  margin: 10px;
+}
+.bracelet .bracelet-gallerry-wrapper .image-wrapper .img:nth-child(even) {
+  margin-top: 15%;
+}
+.bracelet .bracelet-gallerry-wrapper button {
+  background: none;
+  font-size: 12rem;
+  border: none;
+  color: #E4E4E4;
+}
+
+.header {
+  height: 50rem;
+  width: 100vw;
+  background: #E4E4E4;
+  border-left: 3px solid #707070;
+  border-right: 3px solid #707070;
+  position: relative;
+}
+.header .logo {
+  height: 5.5rem;
+  width: 100vw;
+  background: black;
+}
+.header nav {
+  height: 2.5rem;
+  width: 100%;
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10% 0 10%;
+  align-items: center;
+  color: #E4E4E4;
+  font-size: 1rem;
+}
+.header nav .menu-items {
+  transition: all 0.12ms ease-in-out;
+}
+.header nav a {
+  text-decoration: none;
+  color: #E4E4E4;
+}
+.header nav .menu-items:hover {
+  transform: scale(1.2);
+}
+.header .hooker {
+  position: absolute;
+  top: 305px;
+  right: 318px;
+}
+.header .hooker h2 {
+  color: #9A9A9A;
+  font-size: 3.3rem;
+  position: relative;
+}
+.header .hooker h2 .secondary {
+  position: absolute;
+  right: 30%;
+}
+.header .hooker h2 .bigger {
+  -webkit-text-stroke: 1px #2e2e2e;
+  font-size: 5rem;
+  color: #E4E4E4;
+  margin-right: 0;
+}
+.header .buy-button {
+  position: absolute;
+  top: 477px;
+  right: 240px;
+}
+.header .buy-button button {
+  font-size: 1.4rem;
+  padding: 20px 50px;
+  background: #E4E4E4;
+  color: #9A9A9A;
+  font-weight: bold;
+  border: 2px solid rgba(128, 128, 128, 0.413);
+  border-radius: 5px;
+}
+.header .buy-button button:hover {
+  color: #E4E4E4;
+  background: #9A9A9A;
+}
+
+/*# sourceMappingURL=main.css.map */
