@@ -25,12 +25,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: all 2s ease-in-out;
             .img{
                 height: 401px;
                 width: 311px;
                 background-color: white;
                 margin: 10px;
+                transition: all 2s ease-in-out;
             }
             .img:nth-child(even){
                 margin-top: 15%;
