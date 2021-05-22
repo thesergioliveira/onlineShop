@@ -1,13 +1,13 @@
 .kits{
     width: $section-width;
-    height: $section-height;
+    height: 45rem;
     background-color: $gray-background-section;
     display: flex;
     justify-content: center;
     position: relative;
     .section-tittle{
         position: absolute;
-        top: 114px;
+        top: 100px;
         left: 100px;
         span{
             color: $gray-letter;
@@ -16,15 +16,15 @@
     }
     .kits-gallery-wrapper{
         width: 100vw;
-        position: absolute;
-        top: 300px;
         display: flex;
         justify-content: center;
         align-items: center;
         @include border;
     }
     .image-wrapper{
-        position: relative;
+        margin: 0 10%;
+        position: absolute;
+        top: 130px;
         display: flex;
         height: 100%;
         width: 100%;
@@ -32,7 +32,7 @@
         align-items: center;
         transition: all 2s ease-in-out;
          .img{
-             margin: 10px 10px 0px 0px;
+        margin: 0px;
         height: 560px;
         width: 477px;
         background-color: white;
@@ -41,7 +41,7 @@
             // @include border;
             width: 30%;
             .img:nth-child(1), .img:nth-child(2){
-                margin: 15px 0px 0px 10px;
+                margin: 5px auto;
                 height:274px;
                 width: 274px;
             } 
@@ -50,7 +50,7 @@
             // @include border;
             width: 30%;
             .img:nth-child(1), .img:nth-child(2){
-                margin: 15px 0px 0px 5px;
+                margin: 5px auto;
                 height:274px;
                 width: 274px;
             } 
