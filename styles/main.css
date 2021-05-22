@@ -42,15 +42,22 @@
   width: 311px;
   background-color: white;
   margin: 10px;
+  transition: all 2s ease-in-out;
 }
 .bracelet .bracelet-gallerry-wrapper .image-wrapper .img:nth-child(even) {
   margin-top: 15%;
+}
+.bracelet .bracelet-gallerry-wrapper .image-wrapper .img:hover {
+  transform: scale(1.05);
 }
 .bracelet .bracelet-gallerry-wrapper button {
   background: none;
   font-size: 12rem;
   border: none;
   color: #E4E4E4;
+}
+.bracelet .bracelet-gallerry-wrapper button:hover {
+  color: #707070;
 }
 
 .header {
@@ -124,6 +131,144 @@
 .header .buy-button button:hover {
   color: #E4E4E4;
   background: #9A9A9A;
+}
+
+.kits {
+  width: 100vw;
+  height: 45rem;
+  background-color: #707070;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.kits .section-tittle {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.kits .section-tittle span {
+  color: #E4E4E4;
+  font-size: 3rem;
+}
+.kits .kits-gallery-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kits .image-wrapper {
+  margin: 0 10%;
+  position: absolute;
+  top: 130px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s ease-in-out;
+}
+.kits .image-wrapper .img {
+  margin: 0px;
+  height: 560px;
+  width: 477px;
+  background-color: white;
+}
+.kits .image-wrapper .side-panel-one {
+  width: 30%;
+}
+.kits .image-wrapper .side-panel-one .img:nth-child(1), .kits .image-wrapper .side-panel-one .img:nth-child(2) {
+  margin: 5px auto;
+  height: 274px;
+  width: 274px;
+}
+.kits .image-wrapper .side-panel-two {
+  width: 30%;
+}
+.kits .image-wrapper .side-panel-two .img:nth-child(1), .kits .image-wrapper .side-panel-two .img:nth-child(2) {
+  margin: 5px auto;
+  height: 274px;
+  width: 274px;
+}
+
+.necklace {
+  width: 100vw;
+  height: 50rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #707070;
+}
+.necklace .section-tittle {
+  position: absolute;
+  top: 114px;
+  left: 100px;
+}
+.necklace .section-tittle span {
+  color: #E4E4E4;
+  font-size: 3rem;
+}
+.necklace .section-gallery-wrapper {
+  width: 83.9%;
+  height: 50%;
+  position: absolute;
+  top: 25%;
+}
+.necklace .section-gallery-wrapper .image-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.necklace .section-gallery-wrapper .image-wrapper .img {
+  background-color: white;
+  height: 100%;
+  width: 23%;
+  margin: 0 auto;
+  transition: all 2s ease-in-out;
+}
+.necklace .section-gallery-wrapper .image-wrapper .img:hover {
+  transform: scale(1.05);
+}
+
+.rings {
+  width: 100vw;
+  height: 50rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rings .section-tittle {
+  position: absolute;
+  top: 114px;
+  left: 100px;
+}
+.rings .section-tittle span {
+  color: #E4E4E4;
+  font-size: 3rem;
+}
+.rings .section-gallery-wrapper {
+  width: 564px;
+  height: 451px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rings .section-gallery-wrapper button {
+  background: none;
+  font-size: 12rem;
+  border: none;
+  color: #E4E4E4;
+}
+.rings .section-gallery-wrapper button:hover {
+  color: #707070;
+}
+.rings .section-gallery-wrapper .image-wrapper {
+  width: 451px;
+}
+.rings .section-gallery-wrapper .image-wrapper .img {
+  height: 451px;
+  width: 100%;
+  background-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
