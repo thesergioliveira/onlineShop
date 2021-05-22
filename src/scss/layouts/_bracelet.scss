@@ -25,6 +25,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            transition: all 2s ease-in-out;
             .img{
                 height: 401px;
                 width: 311px;
@@ -34,12 +35,18 @@
             .img:nth-child(even){
                 margin-top: 15%;
             }
+            .img:hover{
+                transform: scale(1.05);
+            }
         }
         button{
             background: none;
             font-size: $arrow-size;
             border: none;
             color: $gray-letter;
+        }
+        button:hover{
+            color: $gray-background-section;
         }
     }
 

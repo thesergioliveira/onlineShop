@@ -1,0 +1,41 @@
+.rings{
+    width: 100vw;
+    height: $section-height;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section-tittle{
+        position: absolute;
+        top: 114px;
+        left: 100px;
+        span{
+            color: $gray-letter;
+            font-size: $section-tittle;
+        }
+    }
+    .section-gallery-wrapper{
+        width: 564px;
+        height: 451px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            background: none;
+            font-size: $arrow-size;
+            border: none;
+            color: $gray-letter;
+        }
+        button:hover{
+            color: $gray-background-section;
+        }
+        .image-wrapper{
+            width: 451px;
+            .img{
+                height: 451px;
+                width: 100%;
+                background-color: white;
+            }
+        }
+    }
+}
